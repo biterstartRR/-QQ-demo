@@ -1,0 +1,407 @@
+/* 适应手机 */
+
+@media screen and (max-width:1000px) and (max-height:1800px) {
+    /*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+    .logo img {
+        height: 95px;
+        position: absolute;
+        margin-top: 80px;
+        transition: .3s;
+    }
+    .logo {
+        height: 200px;
+        position: absolute;
+        transition: .3s;
+    }
+    .login {
+        margin-top: 75px;
+        margin-left: 450px;
+        width: 418px;
+        height: 326px;
+        background-color: #ffffff;
+        border: 1px solid #827e7e;
+        border-radius: 6px;
+        position: absolute;
+        transition: .3s;
+    }
+    .top-text a {
+        text-decoration: none;
+        color: rgb(0, 55, 255);
+    }
+    .right {
+        margin-top: 40VH;
+        margin-left: 30VW;
+        position: absolute;
+        font-size: 10VW;
+        color: #fff;
+        opacity: 1s;
+    }
+    /* 这个是找回密码的那一小行字 */
+    .right-text {
+        width: 240px;
+        height: 30px;
+        margin-left: 55%;
+        margin-top: 5%;
+        float: left;
+        /* background-color: #2cbcff; */
+        color: #4f4f4f;
+    }
+    .text-left span a {
+        text-decoration: none;
+        color: rgb(65, 65, 65)
+    }
+}
+
+@media screen and (min-width:568px) and (max-width:960px) {
+    /*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+    .logo img {
+        height: 95px;
+        position: absolute;
+        margin-top: 80px;
+        transition: .3s;
+    }
+    .logo {
+        height: 200px;
+        position: absolute;
+        transition: .3s;
+    }
+    .login {
+        margin-top: 75px;
+        margin-left: 450px;
+        width: 418px;
+        height: 326px;
+        background-color: #ffffff;
+        border: 1px solid #827e7e;
+        border-radius: 6px;
+        position: absolute;
+        transition: .3s;
+    }
+    .top-text a {
+        text-decoration: none;
+        color: blue;
+    }
+    /* 这个是找回密码的那一小行字 */
+    .right-text {
+        width: 240px;
+        height: 30px;
+        margin-left: 40%;
+        margin-top: 5%;
+        float: left;
+        color: #4f4f4f;
+        /* background-color: #2cbcff */
+    }
+    .text-left span a {
+        text-decoration: none;
+        color: rgb(65, 65, 65)
+    }
+}
+
+@media screen and (min-width:100px) and (max-width:456px) {
+    /*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+    .logo img {
+        height: 95px;
+        position: absolute;
+        margin-top: 10VW;
+        margin-left: 19VW;
+        transition: .3s;
+    }
+    .logo {
+        height: 200px;
+        position: absolute;
+        transition: .3s;
+    }
+    .login {
+        margin-top: 50VW;
+        /* margin-left: 1px; */
+        width: 370px;
+        height: 320px;
+        background-color: #6e5c5c4a;
+        border: 1px solid #827e7e;
+        border-radius: 6px;
+        position: absolute;
+        display: inline-block;
+        justify-content: center;
+        transition: .3s;
+        margin-bottom: 10px;
+    }
+    /* 这个是找回密码的那一小行字 */
+    .right-text {
+        width: 240px;
+        height: 30px;
+        margin-left: 32%;
+        margin-top: 5%;
+        float: left;
+        color: #4f4f4f;
+        /* background-color: #2cbcff */
+    }
+    .text-left span {
+        margin: 10px auto;
+        height: 25px;
+        float: left;
+        /* background-color: #f0497b;  */
+        margin-left: 20px;
+        bottom: 0;
+        right: 10px;
+        text-align: right;
+        font-size: 12px;
+        /* text-decoration: none; */
+    }
+    .text-left span a {
+        text-decoration: none;
+        color: rgb(65, 65, 65)
+    }
+    .top-text a {
+        text-decoration: none;
+        color: rgba(12, 162, 199, 0.279);
+    }
+    .text-left span a {
+        text-decoration: none;
+        color: rgb(65, 65, 65)
+    }
+}
+
+@media screen and (min-width:960px) {
+    /*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+    .logo img {
+        height: 95px;
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 25vw;
+        transition: .3s;
+    }
+    .logo {
+        height: 200px;
+        position: absolute;
+        transition: .3s;
+    }
+    .login {
+        margin-top: 75px;
+        margin-left: 55VW;
+        width: 418px;
+        height: 326px;
+        background-color: #ffffff;
+        border: 1px solid #827e7e;
+        border-radius: 6px;
+        position: absolute;
+        transition: .3s;
+    }
+    /* 这个是找回密码的那一小行字 */
+    .right-text {
+        width: 240px;
+        height: 30px;
+        margin-left: 45%;
+        margin-top: 5%;
+        float: left;
+        color: #4f4f4f;
+        /* background-color: #2cbcff */
+    }
+    .text-left span {
+        margin: 16px auto;
+        height: 25px;
+        float: left;
+        /* background-color: #f0497b;  */
+        margin-left: 17px;
+        bottom: 0;
+        right: 10px;
+        text-align: right;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .text-left span a {
+        text-decoration: none;
+        color: rgb(65, 65, 65)
+    }
+    .top-text a {
+        text-decoration: none;
+        color: blue;
+    }
+}
+
+
+/* 登录区 */
+
+.top-text {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    /* background-color: #2cbcff; */
+    /* margin-bottom: 25px; */
+}
+
+
+/* 登录框定位 */
+
+.inputs {
+    margin-top: 7%;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    /* background-color: #2cbcff */
+}
+
+
+/* 这个是账号密码输入框 */
+
+.inputs input {
+    border-radius: 5px;
+    margin-bottom: 6%;
+    width: 65%;
+    height: 25px;
+    padding-left: 10px;
+    background-color: #ffffff;
+    border: 1px solid #827e7e;
+    border-radius: 4px;
+    transition: .3s;
+}
+
+
+/* 这个是确定登录按钮 */
+
+.buttons {
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    /* background-color: #2cbcff; */
+}
+
+.buttons input {
+    border-radius: 8px;
+    /* margin-bottom: 5% ; */
+    width: 67%;
+    height: 40px;
+    /* border: 1px solid #827e7e; */
+    border-radius: 2px;
+    background-color: #1af145;
+    color: #ffffff;
+    transition: 1s;
+    border: 3px #1fcf42 solid;
+    outline: none;
+}
+
+.centers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* 图标栏定位 */
+
+.foot-ico {
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(20, 156, 156); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    bottom: 130px;
+    height: 70px;
+    bottom: 120px;
+    margin-bottom: 10px;
+}
+
+.foot-ico .footer {
+    width: 450px;
+    height: 100px;
+    /* background-color: rgb(20, 156, 156); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* 图标排序 */
+
+.foot-icos {
+    width: 50px;
+    height: 60px;
+    margin-top: 13px;
+    float: left;
+    transition: .4s;
+}
+
+
+/* 图标大小 */
+
+.foot-icos img {
+    width: 27px;
+}
+
+
+/* 图标下面的字 */
+
+.foot-icos p {
+    text-align: center;
+    font-size: 8px;
+    color: white;
+}
+
+
+/* 下面的字 */
+
+.text-foot-center {
+    margin: 0;
+    position: absolute;
+    bottom: 0px;
+    width: 90%;
+    height: 100px;
+    margin-bottom: 10px;
+    /* background-color:#827e7e; */
+}
+
+
+/* 下面的字 */
+
+.text-foot-center p {
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+
+/* 下面是动态效果 */
+
+.foot-icos:hover {
+    transform: translateY(-10px)
+}
+
+.buttons input:hover {
+    background-color: #009e0b;
+    color: #ffffff;
+    /* border-radius: 5px; */
+    border: 2px solid #006430;
+    box-shadow: 1px 1px 1px 0 #000000;
+}
+
+.inputs input:hover {
+    border: 2px solid #27dfff;
+    border-radius: 3px;
+}
+
+.inputs input:focus {
+    border: 4px solid #6bbdff;
+    border-radius: 7px;
+    outline-color: #6ab5d7;
+    /* box-shadow: 2px 2px 2px 0 #00b7ff; */
+}
+
+
+/* .right{
+        margin-top:40VH;
+        margin-left: 30VW;
+        position: absolute;
+        font-size: 10VW;
+        color : #fff;
+        opacity:0;
+    } */

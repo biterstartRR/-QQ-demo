@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>QQ空间-分享生活，留住感动</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="./CSS/login.css">
+    <style type="text/css">
+        body .imgs {
+            width: 100vw;
+            height: 100VH;
+            background-position: center;
+            /* background-repeat: no-repeat; */
+            overflow: auto;
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 1000px;
+            z-index: -10;
+            zoom: 1;
+            background-color: #fff;
+            background: url(./img/apple.webp) no-repeat;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+            background-position: center 0;
+            /* background-size:100% 100%; */
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="imgs"></div>
+    <div class="mian">
+        <div class="center">
+            <!-- logo -->
+            <div class="logo">
+                <img src="./img/logo.webp" alt="">
+            </div>
+            <!-- 登陆区 -->
+            <!-- <div class="right">右滑登录》</div> -->
+            <form method="post" action="board.php">
+                <div class="login">
+                    <div class="loging">
+                        <div class="top-text">
+                            <p style="font-size: 20px">账号密码登录</p>
+                            <p style="font-size: 14px">推荐使用<a href="https://im.qq.com/mobileqq/#from=login">快捷安全登录</a>，防止盗号</p>
+                        </div>
+                        <div class="inputs">
+                            <input class="inputstyle" type="text" id='username' name="title" placeholder="账号">
+                            <input id="title" class="inputstyle" type="password" name="content" placeholder="密码">
+                            <span id="tip" style="color: red;"></span>
+                        </div>
+                        <div class="buttons">
+                            <input id="go" type="submit" style="font-size:20px; outline:none;" value="授权登录" />
+                        </div>
+                        <!--<button onClick="click()">123</button>-->
+                        <div class="right-text">
+                            <div class="text-left">
+                                <span><a href="./lostqq.html">找回密码</a> I</span>
+                                <span><a href="https://qzs.qq.com/qzone/v6/reg/index.html">新用户注册</a> I</span>
+                                <span><a href="https://support.qq.com/products/14800">意见反馈</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!-- 底部 -->
+        </div>
+
+        <div class="centers">
+            <div class="foot-ico">
+                <div class="footer">
+                    <a href="./iphone/iphone.html">
+                        <div class="foot-icos">
+                            <img src="./img/pgm.png">
+                            <p>iPhone</p>
+
+                        </div>
+                    </a>
+                    <a href="./iPad/iPad.html">
+                        <div class="foot-icos">
+                            <img src="./img/padm.png">
+                            <p>iPad</p>
+                        </div>
+                    </a>
+                    <a href="./Android/Android.html">
+                        <div class="foot-icos">
+                            <img src="./img/andzm.png">
+                            <p>Android</p>
+                        </div>
+                    </a>
+                    <a href="./Windows/Windows.html">
+                        <div class="foot-icos">
+                            <img src="./img/windowsm.png">
+                            <p>Windows<br>Phone</p>
+                        </div>
+                    </a>
+                    <a href="./other/other.html">
+                        <div class="foot-icos">
+                            <img src="./img/otherphonem.png">
+                            <p>其他手机</p>
+                        </div>
+                    </a>
+                </div>
+                <script></script>
+            </div>
+            <div class="text-foot-center">
+                <p>反馈建议 | 官方空间 | 空间活动 | 空间应用 | ABCmouse腾讯版 | 腾讯原创馆 | QQ互联 | QQ登录 | 社交组件 | 应用侵权投诉 | Complaint Guidelines</p>
+                <p>Copyright © 2005 - 2022 Tencent.All Rights Reserved.</p>
+                <p>for 前端小北北 cc 2022 转自腾讯-QQ空间 仅用于学习交流否则后果自负</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
